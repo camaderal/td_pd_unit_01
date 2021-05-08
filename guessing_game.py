@@ -50,7 +50,7 @@ def start_game():
         if high_score:
             print("--Current High Score is {}--".format(high_score))
         else:
-            print("--No High Score Set--")
+            print("--No High Score--")
         print("============================")
         print("[N] New Game.")
         print("[E] Exit.")
@@ -67,5 +67,6 @@ def start_game():
             break
         else:
             print("Invalid Input. Please Try Again.")
+    print("Goodbye, {}! Come play again!".format(name))
 
 start_game()
